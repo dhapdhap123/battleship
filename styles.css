@@ -1,0 +1,36 @@
+canvas {
+    width: 800;
+    min-width: 800;
+    height: 1000;
+    min-height: 1000;
+    border: 1px solid black;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+#left-div{
+    min-width: 140px;
+    padding-right:14px;
+}
+
+#right-div{
+    min-width: 140px;
+    padding-right:28px;
+    padding-left:14px;
+}
+#coundting{
+    margin:0;
+}
+
+ol{ 
+    list-style: none;
+}
